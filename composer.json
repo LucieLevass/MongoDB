@@ -1,0 +1,19 @@
+{
+    "name": "lucie/td2mongo",
+    "autoload": {
+        "psr-4": {
+            "Lucie\\Td2mongo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucie Levasseur",
+            "email": "lucie.levasseur10@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-mongodb": "*",
+        "mongodb/mongodb": "^1.5",
+        "ext-json": "*"
+    }
+}
